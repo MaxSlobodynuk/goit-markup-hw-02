@@ -1,0 +1,255 @@
+
+:root{
+    --font-family: inherit;
+    --accent-color: #4D5AE5; 
+    --btn-color-focus: #FFFFFF;
+    --btn-background-focus: #404BBF;
+    --color-about: #434455;
+    --text-color: #2E2F42;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(67, 68, 85, 1);
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'raleway', sans-serif;
+
+}
+
+.logo-accent{
+    color: var(--accent-color);
+}
+.top-logo{
+    color: var(--text-color);
+}
+
+.bottom-logo{
+    color: #F4F4FD;
+}
+
+/* --- Header --- */
+
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+}
+
+.header-mail{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-mail:hover,
+.header-mail:focus{
+    color: var(--accent-color);;
+}
+
+.header-tel{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-tel:hover,
+.header-tel:focus{
+    color: var(--accent-color);
+}
+
+/* ---section one--- */
+
+.hero{
+    background: #2E2F42;
+}
+
+.title-hero{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
+
+.main-btn:hover,
+.main-btn:focus{
+    color: var(--btn-color-focus);
+    background: var(--btn-background-focus);
+}
+
+/* ---features section--- */
+
+.features-section{
+    
+}
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.goal-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+.about-goal{
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--color-about)
+}
+
+/* ---wark section--- */
+
+.work-section{
+
+}
+
+.title-team,
+.title-work{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color)
+}
+
+.list-img{
+
+}
+
+/* ---team section--- */
+
+.team-section{
+    background: #F4F4FD;
+}
+
+.team-photo{
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+}
+
+.list-workers{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+.about-workers{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-about)
+}
+
+/* ---footer without logo */
+
+footer{
+    background: #2E2F42;
+}
+
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/* ---PORTFOLIO--- */
+
+.portfolio-btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background: #F4F4FD;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--btn-color-focus);
+    background: var(--btn-background-focus);
+}
+
+.list-pictures{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+.about-pictures{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-about)
+}
