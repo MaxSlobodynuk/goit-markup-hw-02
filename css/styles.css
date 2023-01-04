@@ -55,7 +55,6 @@ body{
 
 .header-mail{
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -69,7 +68,6 @@ body{
 
 .header-tel{
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -193,7 +191,7 @@ body{
 
 .about-workers{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.50;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-about)
@@ -207,7 +205,6 @@ footer{
 
 
 .text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -224,7 +221,7 @@ footer{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.50;
     display: flex;
     align-items: center;
     text-align: center;
@@ -249,7 +246,7 @@ footer{
 
 .about-pictures{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--color-about)
 }
